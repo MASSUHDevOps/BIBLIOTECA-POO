@@ -11,13 +11,13 @@ public class Main {
         biblioteca = new Biblioteca();
         scanner = new Scanner(System.in);
 
-        // Adicionando alguns livros de exemplo
+        
         inicializarBiblioteca();
 
         while (true) {
             exibirMenu();
             int opcao = scanner.nextInt();
-            scanner.nextLine(); // Limpar o buffer
+            scanner.nextLine(); 
 
             switch (opcao) {
                 case 1:
