@@ -16,7 +16,7 @@ public class LivroFiccao extends Livro {
         this.volumeSerie = volumeSerie;
     }
 
-    // Getters
+   
     public String getGenero() { return genero; }
     public String getSubgenero() { return subgenero; }
     public String getSerieOuSaga() { return serieOuSaga; }
