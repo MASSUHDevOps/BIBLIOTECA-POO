@@ -85,7 +85,7 @@ public class Biblioteca {
             return;
         }
         
-        System.out.println("\n=== CATÁLOGO DA BIBLIOTECA ===");
+        
         livros.forEach(livro -> {
             System.out.println("\n" + livro);
             System.out.println("----------------------------");
