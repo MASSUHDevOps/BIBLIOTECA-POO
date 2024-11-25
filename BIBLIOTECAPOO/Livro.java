@@ -23,7 +23,7 @@ public abstract class Livro {
         this.disponivel = true;
     }
 
-    // Getters e Setters
+
     public String getIsbn() { return isbn; }
     public String getTitulo() { return titulo; }
     public String getAutor() { return autor; }
