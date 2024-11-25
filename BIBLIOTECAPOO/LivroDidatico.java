@@ -16,7 +16,7 @@ public class LivroDidatico extends Livro {
         this.possuiExercicios = possuiExercicios;
     }
 
-    // Getters
+ 
     public String getDisciplina() { return disciplina; }
     public String getNivelEnsino() { return nivelEnsino; }
     public String getEdicao() { return edicao; }
